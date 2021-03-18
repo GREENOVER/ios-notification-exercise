@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AED213A26032B17008B4685 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED213926032B17008B4685 /* YellowViewController.swift */; };
 		C781D6362602335200957614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C781D6352602335200957614 /* AppDelegate.swift */; };
 		C781D6382602335200957614 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C781D6372602335200957614 /* SceneDelegate.swift */; };
 		C781D63A2602335200957614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C781D6392602335200957614 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9AED213926032B17008B4685 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		C781D6322602335200957614 /* EnterWithNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnterWithNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C781D6352602335200957614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C781D6372602335200957614 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				C781D6352602335200957614 /* AppDelegate.swift */,
 				C781D6372602335200957614 /* SceneDelegate.swift */,
 				C781D6392602335200957614 /* ViewController.swift */,
+				9AED213926032B17008B4685 /* YellowViewController.swift */,
 				C781D63B2602335200957614 /* Main.storyboard */,
 				C781D63E2602335300957614 /* Assets.xcassets */,
 				C781D6402602335300957614 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AED213A26032B17008B4685 /* YellowViewController.swift in Sources */,
 				C781D63A2602335200957614 /* ViewController.swift in Sources */,
 				C781D6362602335200957614 /* AppDelegate.swift in Sources */,
 				C781D6382602335200957614 /* SceneDelegate.swift in Sources */,
