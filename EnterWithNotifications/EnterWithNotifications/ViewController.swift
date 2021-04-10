@@ -26,17 +26,12 @@ class ViewController: UIViewController {
     }
 }
 
-
-
-
-
-//
-//extension ViewController: UNUserNotificationCenterDelegate {
-//    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-//        let nofiticationInfo = response.notification.request.content.userInfo
-//        let viewName = nofiticationInfo["target_view"] as! String
-//        self.tabBarController?.selectedIndex = 1
-//        navigationController?.pushViewController(YellowViewController(), animated: true)
-//    }
-//}
+extension ViewController: UNUserNotificationCenterDelegate {
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        let nofiticationInfo = response.notification.request.content.userInfo
+        let viewName = nofiticationInfo["target_view"] as! String
+        self.tabBarController?.selectedIndex = 1
+        navigationController?.pushViewController(YellowViewController(), animated: true)
+    }
+}
 
